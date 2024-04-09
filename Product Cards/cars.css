@@ -1,0 +1,479 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  margin-bottom: 50px;
+}
+
+/* product tag */
+.tag {
+  font-size: 0.9rem;
+  background-color: red;
+  border-radius: 5px;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+/* product*/
+.product-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product-card {
+  background: #fff;
+  display: grid;
+  /* align-items: center; */
+  grid-template-rows: 55% 45%;
+  height: 80%;
+  width: 30%;
+  box-shadow: 10px 10px 25px 0px #3c3c3c;
+}
+
+/* border: 2px solid black; */
+/* .product-imageD{
+    background-image: url("defender\ black.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28rem;
+    height: 100%;
+  } */
+
+.product-imageR {
+  /* border: 2px solid black; */
+  background-image: url("red\ giulia.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 28rem;
+  height: 100%;
+}
+
+/* border: 2px solid black; */
+/* .product-imageM{
+    background-image: url("c\ grey\ benz.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28rem;
+    height: 100%;
+  } */
+
+.product-description {
+  background-color: #62c256;
+  color: #fff;
+  padding-left: 20px;
+  margin-top: -67px;
+  height: 350px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px;
+}
+
+.product-image img {
+  width: 28rem;
+  height: 90%;
+  object-fit: cover;
+}
+
+.stars {
+  color: yellow;
+  font-size: 1em;
+}
+
+/* colors */
+.colors-price {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: -15px;
+}
+
+.colors {
+  display: flex;
+  width: 6rem;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.red {
+  background: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.blue {
+  background: blue;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.gold {
+  background: gold;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.pricing {
+  display: flex;
+  width: 12rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.old-price {
+  font-weight: 100;
+}
+
+/* buttons */
+/* button {
+    cursor: pointer;
+  } */
+
+#button {
+  background-color: red;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+button white-button {
+  background-color: #fff;
+}
+
+.button-text {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.feedback {
+  display: none;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Mercedez Benz C300 2022 */
+
+/*{
+  font-family: "Poppins", sans-serif;
+}
+*/
+
+/* body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  margin-bottom: 50px;
+} */
+
+/* product tag */
+.tag2 {
+  font-size: 0.9rem;
+  background-color: grey;
+  border-radius: 5px;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+/* product*/
+.product-title2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product-card2 {
+  background: #fff;
+  display: grid;
+  /* align-items: center; */
+  grid-template-rows: 55% 45%;
+  height: 80%;
+  width: 30%;
+  box-shadow: 10px 10px 25px 0px #3c3c3c;
+}
+
+.product-imageM {
+  /* border: 2px solid black; */
+  background-image: url("c\ grey\ benz.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 28rem;
+  height: 100%;
+}
+
+.product-description2 {
+  background-color: #62c256;
+  color: #fff;
+  padding-left: 20px;
+  margin-top: -67px;
+  height: 350px;
+}
+
+.product-details2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px;
+}
+
+.product-image2 img {
+  width: 28rem;
+  height: 90%;
+  object-fit: cover;
+}
+
+.stars2 {
+  color: yellow;
+  font-size: 1em;
+}
+
+/* colors */
+.colors-price2 {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: -15px;
+}
+
+.colors2 {
+  display: flex;
+  width: 6rem;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.grey2 {
+  background: #808080;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.black2 {
+  background: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.blue2 {
+  background: rgb(0, 0, 255);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.pricing2 {
+  display: flex;
+  width: 12rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.old-price2 {
+  font-weight: 100;
+}
+
+/* buttons */
+/* button {
+  cursor: pointer;
+} */
+
+#button2 {
+  background-color: grey;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+button white-button2 {
+  background-color: #fff;
+}
+
+.button-text2 {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.feedback2 {
+  display: none;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Land Rover Defender */
+
+/*{
+  font-family: "Poppins", sans-serif;
+}
+*/
+
+/*body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  margin-bottom: 50px;
+}
+*/
+
+/* product tag */
+.tag3 {
+  font-size: 0.9rem;
+  background-color: black;
+  border-radius: 5px;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+/* product*/
+.product-title3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product-card3 {
+  background: #fff;
+  display: grid;
+  /* align-items: center; */
+  grid-template-rows: 55% 45%;
+  height: 80%;
+  width: 30%;
+  box-shadow: 10px 10px 25px 0px #3c3c3c;
+}
+
+.product-imageD {
+  /* border: 2px solid black; */
+  background-image: url("defender\ black.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 28rem;
+  height: 100%;
+}
+
+.product-description3 {
+  background-color: #62c256;
+  color: #fff;
+  padding-left: 20px;
+  margin-top: -67px;
+  height: 350px;
+}
+
+.product-details3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px;
+}
+
+.product-image img {
+  width: 28rem;
+  height: 90%;
+  object-fit: cover;
+}
+
+.stars3 {
+  color: yellow;
+  font-size: 1em;
+}
+
+/* colors */
+.colors-price3 {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: -15px;
+}
+
+.colors3 {
+  display: flex;
+  width: 6rem;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.red3 {
+  background: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.blue3 {
+  background: hsl(240, 100%, 50%);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.black3 {
+  background: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.pricing3 {
+  display: flex;
+  width: 12rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.old-price3 {
+  font-weight: 100;
+}
+
+/* buttons */
+button {
+  cursor: pointer;
+}
+
+#button3 {
+  background-color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+button white-button3 {
+  background-color: #fff;
+}
+
+.button-text3 {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.feedback3 {
+  display: none;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
